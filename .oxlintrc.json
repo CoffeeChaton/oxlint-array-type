@@ -1,0 +1,30 @@
+{
+    "$schema": "./node_modules/oxlint/configuration_schema.json",
+    "plugins": [
+        "import",
+        "jsdoc",
+        "unicorn",
+        "promise",
+        "typescript",
+        "oxc",
+        "eslint"
+    ],
+    "ignorePatterns": [
+        "biome.jsonc",
+        "eslint.config.js",
+        "**/libs/*",
+        "**/*.js",
+        ".cache/**",
+        "vitest.config.ts"
+    ],
+    "rules": {
+        "typescript/array-type": "error"
+        // also not work
+        // "typescript/array-type": [
+        //     "error",
+        //     {
+        //         "default": "array"
+        //     }
+        // ]
+    }
+}

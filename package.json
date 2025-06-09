@@ -1,0 +1,28 @@
+{
+    "name": "name-main",
+    "displayName": "",
+    "type": "module",
+    "version": "0.0.1",
+    "packageManager": "pnpm@10.10.0",
+    "engines": {
+        "node": ">=23.0.0",
+        "pnpm": ">=10.10.0"
+    },
+    "scripts": {
+        "fmt": "dprint fmt",
+        "lint:eslint": "eslint ./src --cache",
+        "lint:oxlint": "oxlint",
+        "lint:tsc": "tsc"
+    },
+    "devDependencies": {
+        "@eslint/eslintrc": "^3.3.1",
+        "@eslint/js": "^9.28.0",
+        "@typescript-eslint/eslint-plugin": "^8.33.1",
+        "@typescript-eslint/parser": "^8.33.1",
+        "eslint": "^9.28.0",
+        "eslint-plugin-import-x": "^4.15.1",
+        "oxlint": "^0.18.0",
+        "typescript": "^5.8.3",
+        "dprint": "^0.50.0"
+    }
+}

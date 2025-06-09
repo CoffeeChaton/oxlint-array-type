@@ -1,0 +1,22 @@
+# dev
+
+# deps
+node_modules/
+out/
+dist/
+static/
+log/
+.cache/
+bin/
+
+# env
+.env
+.env.production
+
+# logs
+logs/
+*.log
+
+# misc
+.DS_Store
+.eslintcache
